@@ -1,0 +1,3341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="ioquaketemp" root=".">
+      <df name="build">
+        <df name="release-linux-x86">
+          <df name="baseq3">
+            <df name="cgame">
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>bg_pmove.asm</in>
+              <in>bg_slidemove.asm</in>
+              <in>cg_consolecmds.asm</in>
+              <in>cg_draw.asm</in>
+              <in>cg_drawtools.asm</in>
+              <in>cg_effects.asm</in>
+              <in>cg_ents.asm</in>
+              <in>cg_event.asm</in>
+              <in>cg_info.asm</in>
+              <in>cg_localents.asm</in>
+              <in>cg_main.asm</in>
+              <in>cg_marks.asm</in>
+              <in>cg_particles.asm</in>
+              <in>cg_players.asm</in>
+              <in>cg_playerstate.asm</in>
+              <in>cg_predict.asm</in>
+              <in>cg_scoreboard.asm</in>
+              <in>cg_servercmds.asm</in>
+              <in>cg_snapshot.asm</in>
+              <in>cg_view.asm</in>
+              <in>cg_weapons.asm</in>
+            </df>
+            <df name="game">
+              <in>ai_chat.asm</in>
+              <in>ai_cmd.asm</in>
+              <in>ai_dmnet.asm</in>
+              <in>ai_dmq3.asm</in>
+              <in>ai_main.asm</in>
+              <in>ai_team.asm</in>
+              <in>ai_vcmd.asm</in>
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>bg_pmove.asm</in>
+              <in>bg_slidemove.asm</in>
+              <in>g_active.asm</in>
+              <in>g_arenas.asm</in>
+              <in>g_bot.asm</in>
+              <in>g_client.asm</in>
+              <in>g_cmds.asm</in>
+              <in>g_combat.asm</in>
+              <in>g_items.asm</in>
+              <in>g_main.asm</in>
+              <in>g_mem.asm</in>
+              <in>g_misc.asm</in>
+              <in>g_missile.asm</in>
+              <in>g_mover.asm</in>
+              <in>g_session.asm</in>
+              <in>g_spawn.asm</in>
+              <in>g_svcmds.asm</in>
+              <in>g_target.asm</in>
+              <in>g_team.asm</in>
+              <in>g_trigger.asm</in>
+              <in>g_utils.asm</in>
+              <in>g_weapon.asm</in>
+            </df>
+            <df name="qcommon">
+              <in>q_math.asm</in>
+              <in>q_shared.asm</in>
+            </df>
+            <df name="ui">
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>ui_addbots.asm</in>
+              <in>ui_atoms.asm</in>
+              <in>ui_cdkey.asm</in>
+              <in>ui_cinematics.asm</in>
+              <in>ui_confirm.asm</in>
+              <in>ui_connect.asm</in>
+              <in>ui_controls2.asm</in>
+              <in>ui_credits.asm</in>
+              <in>ui_demo2.asm</in>
+              <in>ui_display.asm</in>
+              <in>ui_gameinfo.asm</in>
+              <in>ui_ingame.asm</in>
+              <in>ui_loadconfig.asm</in>
+              <in>ui_main.asm</in>
+              <in>ui_menu.asm</in>
+              <in>ui_mfield.asm</in>
+              <in>ui_mods.asm</in>
+              <in>ui_network.asm</in>
+              <in>ui_options.asm</in>
+              <in>ui_playermodel.asm</in>
+              <in>ui_players.asm</in>
+              <in>ui_playersettings.asm</in>
+              <in>ui_preferences.asm</in>
+              <in>ui_qmenu.asm</in>
+              <in>ui_removebots.asm</in>
+              <in>ui_saveconfig.asm</in>
+              <in>ui_serverinfo.asm</in>
+              <in>ui_servers2.asm</in>
+              <in>ui_setup.asm</in>
+              <in>ui_sound.asm</in>
+              <in>ui_sparena.asm</in>
+              <in>ui_specifyserver.asm</in>
+              <in>ui_splevel.asm</in>
+              <in>ui_sppostgame.asm</in>
+              <in>ui_spskill.asm</in>
+              <in>ui_startserver.asm</in>
+              <in>ui_team.asm</in>
+              <in>ui_teamorders.asm</in>
+              <in>ui_video.asm</in>
+            </df>
+            <df name="vm">
+            </df>
+          </df>
+          <df name="client">
+            <df name="opus">
+            </df>
+          </df>
+          <df name="ded">
+          </df>
+          <df name="missionpack">
+            <df name="cgame">
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>bg_pmove.asm</in>
+              <in>bg_slidemove.asm</in>
+              <in>cg_consolecmds.asm</in>
+              <in>cg_draw.asm</in>
+              <in>cg_drawtools.asm</in>
+              <in>cg_effects.asm</in>
+              <in>cg_ents.asm</in>
+              <in>cg_event.asm</in>
+              <in>cg_info.asm</in>
+              <in>cg_localents.asm</in>
+              <in>cg_main.asm</in>
+              <in>cg_marks.asm</in>
+              <in>cg_newdraw.asm</in>
+              <in>cg_particles.asm</in>
+              <in>cg_players.asm</in>
+              <in>cg_playerstate.asm</in>
+              <in>cg_predict.asm</in>
+              <in>cg_scoreboard.asm</in>
+              <in>cg_servercmds.asm</in>
+              <in>cg_snapshot.asm</in>
+              <in>cg_view.asm</in>
+              <in>cg_weapons.asm</in>
+            </df>
+            <df name="game">
+              <in>ai_chat.asm</in>
+              <in>ai_cmd.asm</in>
+              <in>ai_dmnet.asm</in>
+              <in>ai_dmq3.asm</in>
+              <in>ai_main.asm</in>
+              <in>ai_team.asm</in>
+              <in>ai_vcmd.asm</in>
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>bg_pmove.asm</in>
+              <in>bg_slidemove.asm</in>
+              <in>g_active.asm</in>
+              <in>g_arenas.asm</in>
+              <in>g_bot.asm</in>
+              <in>g_client.asm</in>
+              <in>g_cmds.asm</in>
+              <in>g_combat.asm</in>
+              <in>g_items.asm</in>
+              <in>g_main.asm</in>
+              <in>g_mem.asm</in>
+              <in>g_misc.asm</in>
+              <in>g_missile.asm</in>
+              <in>g_mover.asm</in>
+              <in>g_session.asm</in>
+              <in>g_spawn.asm</in>
+              <in>g_svcmds.asm</in>
+              <in>g_target.asm</in>
+              <in>g_team.asm</in>
+              <in>g_trigger.asm</in>
+              <in>g_utils.asm</in>
+              <in>g_weapon.asm</in>
+            </df>
+            <df name="qcommon">
+              <in>q_math.asm</in>
+              <in>q_shared.asm</in>
+            </df>
+            <df name="ui">
+              <in>bg_lib.asm</in>
+              <in>bg_misc.asm</in>
+              <in>ui_atoms.asm</in>
+              <in>ui_gameinfo.asm</in>
+              <in>ui_main.asm</in>
+              <in>ui_players.asm</in>
+              <in>ui_shared.asm</in>
+            </df>
+            <df name="vm">
+            </df>
+          </df>
+          <df name="renderergl1">
+          </df>
+          <df name="renderergl2">
+            <df name="glsl">
+            </df>
+          </df>
+          <df name="tools">
+            <df name="asm">
+            </df>
+            <df name="cpp">
+            </df>
+            <df name="etc">
+            </df>
+            <df name="lburg">
+            </df>
+            <df name="rcc">
+              <in>dagcheck.c</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="code">
+        <df name="AL">
+          <in>al.h</in>
+          <in>alc.h</in>
+          <in>alext.h</in>
+          <in>efx-creative.h</in>
+          <in>efx-presets.h</in>
+          <in>efx.h</in>
+        </df>
+        <df name="asm">
+          <in>ftola.asm</in>
+          <in>ftola.c</in>
+          <in>matha.s</in>
+          <in>qasm-inline.h</in>
+          <in>qasm.h</in>
+          <in>snapvector.asm</in>
+          <in>snapvector.c</in>
+          <in>snd_mixa.s</in>
+          <in>vm_x86_64.asm</in>
+        </df>
+        <df name="botlib">
+          <in>aasfile.h</in>
+          <in>be_aas.h</in>
+          <in>be_aas_bsp.h</in>
+          <in>be_aas_bspq3.c</in>
+          <in>be_aas_cluster.c</in>
+          <in>be_aas_cluster.h</in>
+          <in>be_aas_debug.c</in>
+          <in>be_aas_debug.h</in>
+          <in>be_aas_def.h</in>
+          <in>be_aas_entity.c</in>
+          <in>be_aas_entity.h</in>
+          <in>be_aas_file.c</in>
+          <in>be_aas_file.h</in>
+          <in>be_aas_funcs.h</in>
+          <in>be_aas_main.c</in>
+          <in>be_aas_main.h</in>
+          <in>be_aas_move.c</in>
+          <in>be_aas_move.h</in>
+          <in>be_aas_optimize.c</in>
+          <in>be_aas_optimize.h</in>
+          <in>be_aas_reach.c</in>
+          <in>be_aas_reach.h</in>
+          <in>be_aas_route.c</in>
+          <in>be_aas_route.h</in>
+          <in>be_aas_routealt.c</in>
+          <in>be_aas_routealt.h</in>
+          <in>be_aas_sample.c</in>
+          <in>be_aas_sample.h</in>
+          <in>be_ai_char.c</in>
+          <in>be_ai_char.h</in>
+          <in>be_ai_chat.c</in>
+          <in>be_ai_chat.h</in>
+          <in>be_ai_gen.c</in>
+          <in>be_ai_gen.h</in>
+          <in>be_ai_goal.c</in>
+          <in>be_ai_goal.h</in>
+          <in>be_ai_move.c</in>
+          <in>be_ai_move.h</in>
+          <in>be_ai_weap.c</in>
+          <in>be_ai_weap.h</in>
+          <in>be_ai_weight.c</in>
+          <in>be_ai_weight.h</in>
+          <in>be_ea.c</in>
+          <in>be_ea.h</in>
+          <in>be_interface.c</in>
+          <in>be_interface.h</in>
+          <in>botlib.h</in>
+          <in>l_crc.c</in>
+          <in>l_crc.h</in>
+          <in>l_libvar.c</in>
+          <in>l_libvar.h</in>
+          <in>l_log.c</in>
+          <in>l_log.h</in>
+          <in>l_memory.c</in>
+          <in>l_memory.h</in>
+          <in>l_precomp.c</in>
+          <in>l_precomp.h</in>
+          <in>l_script.c</in>
+          <in>l_script.h</in>
+          <in>l_struct.c</in>
+          <in>l_struct.h</in>
+          <in>l_utils.h</in>
+        </df>
+        <df name="cgame">
+          <in>cg_consolecmds.c</in>
+          <in>cg_draw.c</in>
+          <in>cg_drawtools.c</in>
+          <in>cg_effects.c</in>
+          <in>cg_ents.c</in>
+          <in>cg_event.c</in>
+          <in>cg_info.c</in>
+          <in>cg_local.h</in>
+          <in>cg_localents.c</in>
+          <in>cg_main.c</in>
+          <in>cg_marks.c</in>
+          <in>cg_newdraw.c</in>
+          <in>cg_particles.c</in>
+          <in>cg_players.c</in>
+          <in>cg_playerstate.c</in>
+          <in>cg_predict.c</in>
+          <in>cg_public.h</in>
+          <in>cg_scoreboard.c</in>
+          <in>cg_servercmds.c</in>
+          <in>cg_snapshot.c</in>
+          <in>cg_syscalls.asm</in>
+          <in>cg_syscalls.c</in>
+          <in>cg_view.c</in>
+          <in>cg_weapons.c</in>
+        </df>
+        <df name="client">
+          <in>cl_avi.c</in>
+          <in>cl_cgame.c</in>
+          <in>cl_cin.c</in>
+          <in>cl_console.c</in>
+          <in>cl_curl.c</in>
+          <in>cl_curl.h</in>
+          <in>cl_input.c</in>
+          <in>cl_keys.c</in>
+          <in>cl_main.c</in>
+          <in>cl_net_chan.c</in>
+          <in>cl_parse.c</in>
+          <in>cl_scrn.c</in>
+          <in>cl_ui.c</in>
+          <in>client.h</in>
+          <in>keycodes.h</in>
+          <in>keys.h</in>
+          <in>libmumblelink.c</in>
+          <in>libmumblelink.h</in>
+          <in>qal.c</in>
+          <in>qal.h</in>
+          <in>snd_adpcm.c</in>
+          <in>snd_codec.c</in>
+          <in>snd_codec.h</in>
+          <in>snd_codec_ogg.c</in>
+          <in>snd_codec_opus.c</in>
+          <in>snd_codec_wav.c</in>
+          <in>snd_dma.c</in>
+          <in>snd_local.h</in>
+          <in>snd_main.c</in>
+          <in>snd_mem.c</in>
+          <in>snd_mix.c</in>
+          <in>snd_openal.c</in>
+          <in>snd_public.h</in>
+          <in>snd_wavelet.c</in>
+        </df>
+        <df name="game">
+          <in>ai_chat.c</in>
+          <in>ai_chat.h</in>
+          <in>ai_cmd.c</in>
+          <in>ai_cmd.h</in>
+          <in>ai_dmnet.c</in>
+          <in>ai_dmnet.h</in>
+          <in>ai_dmq3.c</in>
+          <in>ai_dmq3.h</in>
+          <in>ai_main.c</in>
+          <in>ai_main.h</in>
+          <in>ai_team.c</in>
+          <in>ai_team.h</in>
+          <in>ai_vcmd.c</in>
+          <in>ai_vcmd.h</in>
+          <in>bg_lib.c</in>
+          <in>bg_lib.h</in>
+          <in>bg_local.h</in>
+          <in>bg_misc.c</in>
+          <in>bg_pmove.c</in>
+          <in>bg_public.h</in>
+          <in>bg_slidemove.c</in>
+          <in>chars.h</in>
+          <in>g_active.c</in>
+          <in>g_arenas.c</in>
+          <in>g_bot.c</in>
+          <in>g_client.c</in>
+          <in>g_cmds.c</in>
+          <in>g_combat.c</in>
+          <in>g_items.c</in>
+          <in>g_local.h</in>
+          <in>g_main.c</in>
+          <in>g_mem.c</in>
+          <in>g_misc.c</in>
+          <in>g_missile.c</in>
+          <in>g_mover.c</in>
+          <in>g_public.h</in>
+          <in>g_rankings.c</in>
+          <in>g_rankings.h</in>
+          <in>g_session.c</in>
+          <in>g_spawn.c</in>
+          <in>g_svcmds.c</in>
+          <in>g_syscalls.asm</in>
+          <in>g_syscalls.c</in>
+          <in>g_target.c</in>
+          <in>g_team.c</in>
+          <in>g_team.h</in>
+          <in>g_trigger.c</in>
+          <in>g_utils.c</in>
+          <in>g_weapon.c</in>
+          <in>inv.h</in>
+          <in>match.h</in>
+          <in>syn.h</in>
+        </df>
+        <df name="jpeg-8c">
+          <in>jaricom.c</in>
+          <in>jcapimin.c</in>
+          <in>jcapistd.c</in>
+          <in>jcarith.c</in>
+          <in>jccoefct.c</in>
+          <in>jccolor.c</in>
+          <in>jcdctmgr.c</in>
+          <in>jchuff.c</in>
+          <in>jcinit.c</in>
+          <in>jcmainct.c</in>
+          <in>jcmarker.c</in>
+          <in>jcmaster.c</in>
+          <in>jcomapi.c</in>
+          <in>jconfig.h</in>
+          <in>jcparam.c</in>
+          <in>jcprepct.c</in>
+          <in>jcsample.c</in>
+          <in>jctrans.c</in>
+          <in>jdapimin.c</in>
+          <in>jdapistd.c</in>
+          <in>jdarith.c</in>
+          <in>jdatadst.c</in>
+          <in>jdatasrc.c</in>
+          <in>jdcoefct.c</in>
+          <in>jdcolor.c</in>
+          <in>jdct.h</in>
+          <in>jddctmgr.c</in>
+          <in>jdhuff.c</in>
+          <in>jdinput.c</in>
+          <in>jdmainct.c</in>
+          <in>jdmarker.c</in>
+          <in>jdmaster.c</in>
+          <in>jdmerge.c</in>
+          <in>jdpostct.c</in>
+          <in>jdsample.c</in>
+          <in>jdtrans.c</in>
+          <in>jerror.c</in>
+          <in>jerror.h</in>
+          <in>jfdctflt.c</in>
+          <in>jfdctfst.c</in>
+          <in>jfdctint.c</in>
+          <in>jidctflt.c</in>
+          <in>jidctfst.c</in>
+          <in>jidctint.c</in>
+          <in>jinclude.h</in>
+          <in>jmemmgr.c</in>
+          <in>jmemnobs.c</in>
+          <in>jmemsys.h</in>
+          <in>jmorecfg.h</in>
+          <in>jpegint.h</in>
+          <in>jpeglib.h</in>
+          <in>jquant1.c</in>
+          <in>jquant2.c</in>
+          <in>jutils.c</in>
+          <in>jversion.h</in>
+        </df>
+        <df name="libcurl">
+          <df name="curl">
+            <in>curl.h</in>
+            <in>curlver.h</in>
+            <in>easy.h</in>
+            <in>mprintf.h</in>
+            <in>multi.h</in>
+            <in>stdcheaders.h</in>
+            <in>types.h</in>
+          </df>
+        </df>
+        <df name="libogg-1.3.0">
+          <df name="include">
+            <df name="ogg">
+              <in>config_types.h</in>
+              <in>ogg.h</in>
+              <in>os_types.h</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>bitwise.c</in>
+            <in>framing.c</in>
+          </df>
+        </df>
+        <df name="libs">
+          <df name="macosx">
+          </df>
+          <df name="win32">
+          </df>
+          <df name="win64">
+          </df>
+        </df>
+        <df name="libspeex">
+          <df name="include">
+            <df name="speex">
+              <in>speex.h</in>
+              <in>speex_bits.h</in>
+              <in>speex_buffer.h</in>
+              <in>speex_callbacks.h</in>
+              <in>speex_config_types.h</in>
+              <in>speex_echo.h</in>
+              <in>speex_header.h</in>
+              <in>speex_jitter.h</in>
+              <in>speex_preprocess.h</in>
+              <in>speex_resampler.h</in>
+              <in>speex_stereo.h</in>
+              <in>speex_types.h</in>
+            </df>
+          </df>
+          <in>_kiss_fft_guts.h</in>
+          <in>arch.h</in>
+          <in>bits.c</in>
+          <in>buffer.c</in>
+          <in>cb_search.c</in>
+          <in>cb_search.h</in>
+          <in>cb_search_arm4.h</in>
+          <in>cb_search_bfin.h</in>
+          <in>cb_search_sse.h</in>
+          <in>config.h</in>
+          <in>echo_diagnostic.m</in>
+          <in>exc_10_16_table.c</in>
+          <in>exc_10_32_table.c</in>
+          <in>exc_20_32_table.c</in>
+          <in>exc_5_256_table.c</in>
+          <in>exc_5_64_table.c</in>
+          <in>exc_8_128_table.c</in>
+          <in>fftwrap.c</in>
+          <in>fftwrap.h</in>
+          <in>filterbank.c</in>
+          <in>filterbank.h</in>
+          <in>filters.c</in>
+          <in>filters.h</in>
+          <in>filters_arm4.h</in>
+          <in>filters_bfin.h</in>
+          <in>filters_sse.h</in>
+          <in>fixed_arm4.h</in>
+          <in>fixed_arm5e.h</in>
+          <in>fixed_bfin.h</in>
+          <in>fixed_debug.h</in>
+          <in>fixed_generic.h</in>
+          <in>gain_table.c</in>
+          <in>gain_table_lbr.c</in>
+          <in>hexc_10_32_table.c</in>
+          <in>hexc_table.c</in>
+          <in>high_lsp_tables.c</in>
+          <in>jitter.c</in>
+          <in>kiss_fft.c</in>
+          <in>kiss_fft.h</in>
+          <in>kiss_fftr.c</in>
+          <in>kiss_fftr.h</in>
+          <in>lpc.c</in>
+          <in>lpc.h</in>
+          <in>lpc_bfin.h</in>
+          <in>lsp.c</in>
+          <in>lsp.h</in>
+          <in>lsp_bfin.h</in>
+          <in>lsp_tables_nb.c</in>
+          <in>ltp.c</in>
+          <in>ltp.h</in>
+          <in>ltp_arm4.h</in>
+          <in>ltp_bfin.h</in>
+          <in>ltp_sse.h</in>
+          <in>math_approx.h</in>
+          <in>mdf.c</in>
+          <in>misc_bfin.h</in>
+          <in>modes.c</in>
+          <in>modes.h</in>
+          <in>modes_wb.c</in>
+          <in>nb_celp.c</in>
+          <in>nb_celp.h</in>
+          <in>os_support.h</in>
+          <in>preprocess.c</in>
+          <in>pseudofloat.h</in>
+          <in>quant_lsp.c</in>
+          <in>quant_lsp.h</in>
+          <in>quant_lsp_bfin.h</in>
+          <in>resample.c</in>
+          <in>sb_celp.c</in>
+          <in>sb_celp.h</in>
+          <in>smallft.c</in>
+          <in>smallft.h</in>
+          <in>speex.c</in>
+          <in>speex_callbacks.c</in>
+          <in>speex_header.c</in>
+          <in>stack_alloc.h</in>
+          <in>stereo.c</in>
+          <in>testdenoise.c</in>
+          <in>testecho.c</in>
+          <in>testenc.c</in>
+          <in>testenc_uwb.c</in>
+          <in>testenc_wb.c</in>
+          <in>vbr.c</in>
+          <in>vbr.h</in>
+          <in>vorbis_psy.h</in>
+          <in>vq.c</in>
+          <in>vq.h</in>
+          <in>vq_arm4.h</in>
+          <in>vq_bfin.h</in>
+          <in>vq_sse.h</in>
+          <in>window.c</in>
+        </df>
+        <df name="null">
+          <in>mac_net.c</in>
+          <in>null_client.c</in>
+          <in>null_glimp.c</in>
+          <in>null_input.c</in>
+          <in>null_main.c</in>
+          <in>null_net.c</in>
+          <in>null_snddma.c</in>
+        </df>
+        <df name="opus-1.0.2">
+          <df name="celt">
+            <in>_kiss_fft_guts.h</in>
+            <in>arch.h</in>
+            <in>bands.c</in>
+            <in>bands.h</in>
+            <in>celt.c</in>
+            <in>celt.h</in>
+            <in>celt_lpc.c</in>
+            <in>celt_lpc.h</in>
+            <in>cwrs.c</in>
+            <in>cwrs.h</in>
+            <in>ecintrin.h</in>
+            <in>entcode.c</in>
+            <in>entcode.h</in>
+            <in>entdec.c</in>
+            <in>entdec.h</in>
+            <in>entenc.c</in>
+            <in>entenc.h</in>
+            <in>fixed_debug.h</in>
+            <in>fixed_generic.h</in>
+            <in>float_cast.h</in>
+            <in>kiss_fft.c</in>
+            <in>kiss_fft.h</in>
+            <in>laplace.c</in>
+            <in>laplace.h</in>
+            <in>mathops.c</in>
+            <in>mathops.h</in>
+            <in>mdct.c</in>
+            <in>mdct.h</in>
+            <in>mfrngcod.h</in>
+            <in>modes.c</in>
+            <in>modes.h</in>
+            <in>opus_custom_demo.c</in>
+            <in>os_support.h</in>
+            <in>pitch.c</in>
+            <in>pitch.h</in>
+            <in>quant_bands.c</in>
+            <in>quant_bands.h</in>
+            <in>rate.c</in>
+            <in>rate.h</in>
+            <in>stack_alloc.h</in>
+            <in>static_modes_fixed.h</in>
+            <in>static_modes_float.h</in>
+            <in>vq.c</in>
+            <in>vq.h</in>
+          </df>
+          <df name="include">
+            <in>opus.h</in>
+            <in>opus_custom.h</in>
+            <in>opus_defines.h</in>
+            <in>opus_multistream.h</in>
+            <in>opus_types.h</in>
+          </df>
+          <df name="silk">
+            <df name="fixed">
+              <in>LTP_analysis_filter_FIX.c</in>
+              <in>LTP_scale_ctrl_FIX.c</in>
+              <in>apply_sine_window_FIX.c</in>
+              <in>autocorr_FIX.c</in>
+              <in>burg_modified_FIX.c</in>
+              <in>corrMatrix_FIX.c</in>
+              <in>encode_frame_FIX.c</in>
+              <in>find_LPC_FIX.c</in>
+              <in>find_LTP_FIX.c</in>
+              <in>find_pitch_lags_FIX.c</in>
+              <in>find_pred_coefs_FIX.c</in>
+              <in>k2a_FIX.c</in>
+              <in>k2a_Q16_FIX.c</in>
+              <in>main_FIX.h</in>
+              <in>noise_shape_analysis_FIX.c</in>
+              <in>pitch_analysis_core_FIX.c</in>
+              <in>prefilter_FIX.c</in>
+              <in>process_gains_FIX.c</in>
+              <in>regularize_correlations_FIX.c</in>
+              <in>residual_energy16_FIX.c</in>
+              <in>residual_energy_FIX.c</in>
+              <in>schur64_FIX.c</in>
+              <in>schur_FIX.c</in>
+              <in>solve_LS_FIX.c</in>
+              <in>structs_FIX.h</in>
+              <in>vector_ops_FIX.c</in>
+              <in>warped_autocorrelation_FIX.c</in>
+            </df>
+            <df name="float">
+              <in>LPC_analysis_filter_FLP.c</in>
+              <in>LPC_inv_pred_gain_FLP.c</in>
+              <in>LTP_analysis_filter_FLP.c</in>
+              <in>LTP_scale_ctrl_FLP.c</in>
+              <in>SigProc_FLP.h</in>
+              <in>apply_sine_window_FLP.c</in>
+              <in>autocorrelation_FLP.c</in>
+              <in>burg_modified_FLP.c</in>
+              <in>bwexpander_FLP.c</in>
+              <in>corrMatrix_FLP.c</in>
+              <in>encode_frame_FLP.c</in>
+              <in>energy_FLP.c</in>
+              <in>find_LPC_FLP.c</in>
+              <in>find_LTP_FLP.c</in>
+              <in>find_pitch_lags_FLP.c</in>
+              <in>find_pred_coefs_FLP.c</in>
+              <in>inner_product_FLP.c</in>
+              <in>k2a_FLP.c</in>
+              <in>levinsondurbin_FLP.c</in>
+              <in>main_FLP.h</in>
+              <in>noise_shape_analysis_FLP.c</in>
+              <in>pitch_analysis_core_FLP.c</in>
+              <in>prefilter_FLP.c</in>
+              <in>process_gains_FLP.c</in>
+              <in>regularize_correlations_FLP.c</in>
+              <in>residual_energy_FLP.c</in>
+              <in>scale_copy_vector_FLP.c</in>
+              <in>scale_vector_FLP.c</in>
+              <in>schur_FLP.c</in>
+              <in>solve_LS_FLP.c</in>
+              <in>sort_FLP.c</in>
+              <in>structs_FLP.h</in>
+              <in>warped_autocorrelation_FLP.c</in>
+              <in>wrappers_FLP.c</in>
+            </df>
+            <in>A2NLSF.c</in>
+            <in>API.h</in>
+            <in>CNG.c</in>
+            <in>HP_variable_cutoff.c</in>
+            <in>Inlines.h</in>
+            <in>LPC_analysis_filter.c</in>
+            <in>LPC_inv_pred_gain.c</in>
+            <in>LP_variable_cutoff.c</in>
+            <in>MacroCount.h</in>
+            <in>MacroDebug.h</in>
+            <in>NLSF2A.c</in>
+            <in>NLSF_VQ.c</in>
+            <in>NLSF_VQ_weights_laroia.c</in>
+            <in>NLSF_decode.c</in>
+            <in>NLSF_del_dec_quant.c</in>
+            <in>NLSF_encode.c</in>
+            <in>NLSF_stabilize.c</in>
+            <in>NLSF_unpack.c</in>
+            <in>NSQ.c</in>
+            <in>NSQ_del_dec.c</in>
+            <in>PLC.c</in>
+            <in>PLC.h</in>
+            <in>SigProc_FIX.h</in>
+            <in>VAD.c</in>
+            <in>VQ_WMat_EC.c</in>
+            <in>ana_filt_bank_1.c</in>
+            <in>biquad_alt.c</in>
+            <in>bwexpander.c</in>
+            <in>bwexpander_32.c</in>
+            <in>check_control_input.c</in>
+            <in>code_signs.c</in>
+            <in>control.h</in>
+            <in>control_SNR.c</in>
+            <in>control_audio_bandwidth.c</in>
+            <in>control_codec.c</in>
+            <in>debug.c</in>
+            <in>debug.h</in>
+            <in>dec_API.c</in>
+            <in>decode_core.c</in>
+            <in>decode_frame.c</in>
+            <in>decode_indices.c</in>
+            <in>decode_parameters.c</in>
+            <in>decode_pitch.c</in>
+            <in>decode_pulses.c</in>
+            <in>decoder_set_fs.c</in>
+            <in>define.h</in>
+            <in>enc_API.c</in>
+            <in>encode_indices.c</in>
+            <in>encode_pulses.c</in>
+            <in>errors.h</in>
+            <in>gain_quant.c</in>
+            <in>init_decoder.c</in>
+            <in>init_encoder.c</in>
+            <in>inner_prod_aligned.c</in>
+            <in>interpolate.c</in>
+            <in>lin2log.c</in>
+            <in>log2lin.c</in>
+            <in>macros.h</in>
+            <in>main.h</in>
+            <in>pitch_est_defines.h</in>
+            <in>pitch_est_tables.c</in>
+            <in>process_NLSFs.c</in>
+            <in>quant_LTP_gains.c</in>
+            <in>resampler.c</in>
+            <in>resampler_down2.c</in>
+            <in>resampler_down2_3.c</in>
+            <in>resampler_private.h</in>
+            <in>resampler_private_AR2.c</in>
+            <in>resampler_private_IIR_FIR.c</in>
+            <in>resampler_private_down_FIR.c</in>
+            <in>resampler_private_up2_HQ.c</in>
+            <in>resampler_rom.c</in>
+            <in>resampler_rom.h</in>
+            <in>resampler_structs.h</in>
+            <in>shell_coder.c</in>
+            <in>sigm_Q15.c</in>
+            <in>sort.c</in>
+            <in>stereo_LR_to_MS.c</in>
+            <in>stereo_MS_to_LR.c</in>
+            <in>stereo_decode_pred.c</in>
+            <in>stereo_encode_pred.c</in>
+            <in>stereo_find_predictor.c</in>
+            <in>stereo_quant_pred.c</in>
+            <in>structs.h</in>
+            <in>sum_sqr_shift.c</in>
+            <in>table_LSF_cos.c</in>
+            <in>tables.h</in>
+            <in>tables_LTP.c</in>
+            <in>tables_NLSF_CB_NB_MB.c</in>
+            <in>tables_NLSF_CB_WB.c</in>
+            <in>tables_gain.c</in>
+            <in>tables_other.c</in>
+            <in>tables_pitch_lag.c</in>
+            <in>tables_pulses_per_block.c</in>
+            <in>tuning_parameters.h</in>
+            <in>typedef.h</in>
+          </df>
+          <df name="src">
+            <in>opus.c</in>
+            <in>opus_decoder.c</in>
+            <in>opus_encoder.c</in>
+            <in>opus_multistream.c</in>
+            <in>opus_private.h</in>
+            <in>repacketizer.c</in>
+          </df>
+        </df>
+        <df name="opusfile-0.2">
+          <df name="include">
+            <in>opusfile.h</in>
+          </df>
+          <df name="src">
+            <in>http.c</in>
+            <in>info.c</in>
+            <in>internal.c</in>
+            <in>internal.h</in>
+            <in>opusfile.c</in>
+            <in>stream.c</in>
+          </df>
+        </df>
+        <df name="q3_ui">
+          <in>ui_addbots.c</in>
+          <in>ui_atoms.c</in>
+          <in>ui_cdkey.c</in>
+          <in>ui_cinematics.c</in>
+          <in>ui_confirm.c</in>
+          <in>ui_connect.c</in>
+          <in>ui_controls2.c</in>
+          <in>ui_credits.c</in>
+          <in>ui_demo2.c</in>
+          <in>ui_display.c</in>
+          <in>ui_gameinfo.c</in>
+          <in>ui_ingame.c</in>
+          <in>ui_loadconfig.c</in>
+          <in>ui_local.h</in>
+          <in>ui_login.c</in>
+          <in>ui_main.c</in>
+          <in>ui_menu.c</in>
+          <in>ui_mfield.c</in>
+          <in>ui_mods.c</in>
+          <in>ui_network.c</in>
+          <in>ui_options.c</in>
+          <in>ui_playermodel.c</in>
+          <in>ui_players.c</in>
+          <in>ui_playersettings.c</in>
+          <in>ui_preferences.c</in>
+          <in>ui_qmenu.c</in>
+          <in>ui_rankings.c</in>
+          <in>ui_rankstatus.c</in>
+          <in>ui_removebots.c</in>
+          <in>ui_saveconfig.c</in>
+          <in>ui_serverinfo.c</in>
+          <in>ui_servers2.c</in>
+          <in>ui_setup.c</in>
+          <in>ui_signup.c</in>
+          <in>ui_sound.c</in>
+          <in>ui_sparena.c</in>
+          <in>ui_specifyleague.c</in>
+          <in>ui_specifyserver.c</in>
+          <in>ui_splevel.c</in>
+          <in>ui_sppostgame.c</in>
+          <in>ui_spreset.c</in>
+          <in>ui_spskill.c</in>
+          <in>ui_startserver.c</in>
+          <in>ui_team.c</in>
+          <in>ui_teamorders.c</in>
+          <in>ui_video.c</in>
+        </df>
+        <df name="qcommon">
+          <in>cm_load.c</in>
+          <in>cm_local.h</in>
+          <in>cm_patch.c</in>
+          <in>cm_patch.h</in>
+          <in>cm_polylib.c</in>
+          <in>cm_polylib.h</in>
+          <in>cm_public.h</in>
+          <in>cm_test.c</in>
+          <in>cm_trace.c</in>
+          <in>cmd.c</in>
+          <in>common.c</in>
+          <in>cvar.c</in>
+          <in>files.c</in>
+          <in>huffman.c</in>
+          <in>ioapi.c</in>
+          <in>ioapi.h</in>
+          <in>md4.c</in>
+          <in>md5.c</in>
+          <in>msg.c</in>
+          <in>net_chan.c</in>
+          <in>net_ip.c</in>
+          <in>puff.c</in>
+          <in>puff.h</in>
+          <in>q_math.c</in>
+          <in>q_platform.h</in>
+          <in>q_shared.c</in>
+          <in>q_shared.h</in>
+          <in>qcommon.h</in>
+          <in>qfiles.h</in>
+          <in>surfaceflags.h</in>
+          <in>unzip.c</in>
+          <in>unzip.h</in>
+          <in>vm.c</in>
+          <in>vm_interpreted.c</in>
+          <in>vm_local.h</in>
+          <in>vm_none.c</in>
+          <in>vm_powerpc.c</in>
+          <in>vm_powerpc_asm.c</in>
+          <in>vm_powerpc_asm.h</in>
+          <in>vm_sparc.c</in>
+          <in>vm_sparc.h</in>
+          <in>vm_x86.c</in>
+        </df>
+        <df name="renderercommon">
+          <in>iqm.h</in>
+          <in>qgl.h</in>
+          <in>tr_common.h</in>
+          <in>tr_font.c</in>
+          <in>tr_image_bmp.c</in>
+          <in>tr_image_jpg.c</in>
+          <in>tr_image_pcx.c</in>
+          <in>tr_image_png.c</in>
+          <in>tr_image_tga.c</in>
+          <in>tr_noise.c</in>
+          <in>tr_public.h</in>
+          <in>tr_types.h</in>
+        </df>
+        <df name="renderergl1">
+          <in>tr_animation.c</in>
+          <in>tr_backend.c</in>
+          <in>tr_bsp.c</in>
+          <in>tr_cmds.c</in>
+          <in>tr_curve.c</in>
+          <in>tr_flares.c</in>
+          <in>tr_image.c</in>
+          <in>tr_init.c</in>
+          <in>tr_light.c</in>
+          <in>tr_local.h</in>
+          <in>tr_main.c</in>
+          <in>tr_marks.c</in>
+          <in>tr_mesh.c</in>
+          <in>tr_model.c</in>
+          <in>tr_model_iqm.c</in>
+          <in>tr_scene.c</in>
+          <in>tr_shade.c</in>
+          <in>tr_shade_calc.c</in>
+          <in>tr_shader.c</in>
+          <in>tr_shadows.c</in>
+          <in>tr_sky.c</in>
+          <in>tr_subs.c</in>
+          <in>tr_surface.c</in>
+          <in>tr_world.c</in>
+        </df>
+        <df name="renderergl2">
+          <df name="glsl">
+          </df>
+          <in>tr_animation.c</in>
+          <in>tr_backend.c</in>
+          <in>tr_bsp.c</in>
+          <in>tr_cmds.c</in>
+          <in>tr_curve.c</in>
+          <in>tr_extensions.c</in>
+          <in>tr_extramath.c</in>
+          <in>tr_extramath.h</in>
+          <in>tr_extratypes.h</in>
+          <in>tr_fbo.c</in>
+          <in>tr_fbo.h</in>
+          <in>tr_flares.c</in>
+          <in>tr_glsl.c</in>
+          <in>tr_image.c</in>
+          <in>tr_init.c</in>
+          <in>tr_light.c</in>
+          <in>tr_local.h</in>
+          <in>tr_main.c</in>
+          <in>tr_marks.c</in>
+          <in>tr_mesh.c</in>
+          <in>tr_model.c</in>
+          <in>tr_model_iqm.c</in>
+          <in>tr_postprocess.c</in>
+          <in>tr_postprocess.h</in>
+          <in>tr_scene.c</in>
+          <in>tr_shade.c</in>
+          <in>tr_shade_calc.c</in>
+          <in>tr_shader.c</in>
+          <in>tr_shadows.c</in>
+          <in>tr_sky.c</in>
+          <in>tr_subs.c</in>
+          <in>tr_surface.c</in>
+          <in>tr_vbo.c</in>
+          <in>tr_world.c</in>
+        </df>
+        <df name="sdl">
+          <in>sdl_gamma.c</in>
+          <in>sdl_glimp.c</in>
+          <in>sdl_icon.h</in>
+          <in>sdl_input.c</in>
+          <in>sdl_snd.c</in>
+        </df>
+        <df name="SDL12">
+          <df name="include">
+            <in>SDL.h</in>
+            <in>SDL_active.h</in>
+            <in>SDL_audio.h</in>
+            <in>SDL_byteorder.h</in>
+            <in>SDL_cdrom.h</in>
+            <in>SDL_config.h</in>
+            <in>SDL_config_amiga.h</in>
+            <in>SDL_config_dreamcast.h</in>
+            <in>SDL_config_macos.h</in>
+            <in>SDL_config_macosx.h</in>
+            <in>SDL_config_minimal.h</in>
+            <in>SDL_config_nds.h</in>
+            <in>SDL_config_os2.h</in>
+            <in>SDL_config_symbian.h</in>
+            <in>SDL_config_win32.h</in>
+            <in>SDL_copying.h</in>
+            <in>SDL_cpuinfo.h</in>
+            <in>SDL_endian.h</in>
+            <in>SDL_error.h</in>
+            <in>SDL_events.h</in>
+            <in>SDL_getenv.h</in>
+            <in>SDL_joystick.h</in>
+            <in>SDL_keyboard.h</in>
+            <in>SDL_keysym.h</in>
+            <in>SDL_loadso.h</in>
+            <in>SDL_main.h</in>
+            <in>SDL_mouse.h</in>
+            <in>SDL_mutex.h</in>
+            <in>SDL_name.h</in>
+            <in>SDL_opengl.h</in>
+            <in>SDL_platform.h</in>
+            <in>SDL_quit.h</in>
+            <in>SDL_rwops.h</in>
+            <in>SDL_stdinc.h</in>
+            <in>SDL_syswm.h</in>
+            <in>SDL_thread.h</in>
+            <in>SDL_timer.h</in>
+            <in>SDL_types.h</in>
+            <in>SDL_version.h</in>
+            <in>SDL_video.h</in>
+            <in>begin_code.h</in>
+            <in>close_code.h</in>
+          </df>
+        </df>
+        <df name="server">
+          <in>server.h</in>
+          <in>sv_bot.c</in>
+          <in>sv_ccmds.c</in>
+          <in>sv_client.c</in>
+          <in>sv_game.c</in>
+          <in>sv_init.c</in>
+          <in>sv_main.c</in>
+          <in>sv_net_chan.c</in>
+          <in>sv_rankings.c</in>
+          <in>sv_snapshot.c</in>
+          <in>sv_world.c</in>
+        </df>
+        <df name="sys">
+          <in>con_log.c</in>
+          <in>con_passive.c</in>
+          <in>con_tty.c</in>
+          <in>con_win32.c</in>
+          <in>sys_loadlib.h</in>
+          <in>sys_local.h</in>
+          <in>sys_main.c</in>
+          <in>sys_osx.m</in>
+          <in>sys_unix.c</in>
+          <in>sys_win32.c</in>
+          <in>win_resource.h</in>
+        </df>
+        <df name="tools">
+          <df name="asm">
+            <in>cmdlib.c</in>
+            <in>cmdlib.h</in>
+            <in>mathlib.h</in>
+            <in>opstrings.h</in>
+            <in>q3asm.c</in>
+          </df>
+          <df name="lcc">
+            <df name="cpp">
+              <in>cpp.c</in>
+              <in>cpp.h</in>
+              <in>eval.c</in>
+              <in>getopt.c</in>
+              <in>hideset.c</in>
+              <in>include.c</in>
+              <in>lex.c</in>
+              <in>macro.c</in>
+              <in>nlist.c</in>
+              <in>tokens.c</in>
+              <in>unix.c</in>
+            </df>
+            <df name="doc">
+            </df>
+            <df name="etc">
+              <in>bytecode.c</in>
+              <in>lcc.c</in>
+            </df>
+            <df name="lburg">
+              <in>gram.c</in>
+              <in>lburg.c</in>
+              <in>lburg.h</in>
+            </df>
+            <df name="src">
+              <in>alloc.c</in>
+              <in>bind.c</in>
+              <in>bytecode.c</in>
+              <in>c.h</in>
+              <in>config.h</in>
+              <in>dag.c</in>
+              <in>decl.c</in>
+              <in>enode.c</in>
+              <in>error.c</in>
+              <in>event.c</in>
+              <in>expr.c</in>
+              <in>gen.c</in>
+              <in>init.c</in>
+              <in>inits.c</in>
+              <in>input.c</in>
+              <in>lex.c</in>
+              <in>list.c</in>
+              <in>main.c</in>
+              <in>null.c</in>
+              <in>output.c</in>
+              <in>prof.c</in>
+              <in>profio.c</in>
+              <in>simp.c</in>
+              <in>stmt.c</in>
+              <in>string.c</in>
+              <in>sym.c</in>
+              <in>symbolic.c</in>
+              <in>token.h</in>
+              <in>trace.c</in>
+              <in>tree.c</in>
+              <in>types.c</in>
+            </df>
+          </df>
+        </df>
+        <df name="ui">
+          <in>ui_atoms.c</in>
+          <in>ui_gameinfo.c</in>
+          <in>ui_local.h</in>
+          <in>ui_main.c</in>
+          <in>ui_players.c</in>
+          <in>ui_public.h</in>
+          <in>ui_shared.c</in>
+          <in>ui_shared.h</in>
+          <in>ui_syscalls.asm</in>
+          <in>ui_syscalls.c</in>
+        </df>
+        <df name="zlib">
+          <in>adler32.c</in>
+          <in>crc32.c</in>
+          <in>crc32.h</in>
+          <in>inffast.c</in>
+          <in>inffast.h</in>
+          <in>inffixed.h</in>
+          <in>inflate.c</in>
+          <in>inflate.h</in>
+          <in>inftrees.c</in>
+          <in>inftrees.h</in>
+          <in>zconf.h</in>
+          <in>zlib.h</in>
+          <in>zutil.c</in>
+          <in>zutil.h</in>
+        </df>
+      </df>
+      <df name="misc">
+        <df name="msvc">
+        </df>
+        <df name="msvc10">
+        </df>
+        <df name="nsis">
+        </df>
+        <df name="osxfe">
+          <df name="ioquake3fe">
+            <df name="English.lproj">
+            </df>
+            <df name="ioquake3fe.xcodeproj">
+            </df>
+            <in>Controller.h</in>
+            <in>Controller.m</in>
+            <in>ErrorWindow.h</in>
+            <in>ErrorWindow.m</in>
+            <in>ErrorWindowController.h</in>
+            <in>ErrorWindowController.m</in>
+            <in>main.m</in>
+          </df>
+        </df>
+        <df name="setup">
+          <df name="MacOSX">
+          </df>
+          <df name="pkg">
+            <df name="ioquake3">
+            </df>
+            <df name="ioquake3d">
+            </df>
+            <df name="ioquake3m">
+            </df>
+          </df>
+          <in>setup.xml.mod</in>
+        </df>
+      </df>
+      <df name="ui">
+        <in>menudef.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>code/jpeg-8c</pElem>
+              <pElem>code/zlib</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>NDEBUG</Elem>
+              <Elem>NO_GZIP</Elem>
+              <Elem>PRODUCT_VERSION="1.36_GIT_6ce9c1f-2013-03-27"</Elem>
+              <Elem>USE_ICON</Elem>
+              <Elem>USE_INTERNAL_JPEG</Elem>
+              <Elem>USE_LOCAL_HEADERS</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="build/release-linux-x86/baseq3/cgame/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/bg_pmove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/bg_slidemove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_consolecmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_draw.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_drawtools.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_effects.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_ents.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_event.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_info.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_localents.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_marks.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_particles.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_players.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_playerstate.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_predict.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_scoreboard.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_servercmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_snapshot.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_view.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/cgame/cg_weapons.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_chat.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_cmd.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_dmnet.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_dmq3.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_team.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/ai_vcmd.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/bg_pmove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/bg_slidemove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_active.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_arenas.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_bot.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_client.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_cmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_combat.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_items.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_mem.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_missile.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_mover.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_session.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_spawn.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_svcmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_target.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_team.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_trigger.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_utils.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/game/g_weapon.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/qcommon/q_math.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/qcommon/q_shared.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_addbots.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_atoms.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_cdkey.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_cinematics.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_confirm.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_connect.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_controls2.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_credits.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_demo2.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_display.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_gameinfo.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_ingame.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_loadconfig.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_menu.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_mfield.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_mods.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_network.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_options.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_playermodel.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_players.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_playersettings.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_preferences.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_qmenu.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_removebots.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_saveconfig.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_serverinfo.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_servers2.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_setup.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_sound.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_sparena.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_specifyserver.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_splevel.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_sppostgame.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_spskill.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_startserver.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_team.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_teamorders.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/baseq3/ui/ui_video.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/bg_pmove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/bg_slidemove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_consolecmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_draw.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_drawtools.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_effects.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_ents.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_event.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_info.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_localents.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_marks.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_newdraw.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_particles.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_players.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_playerstate.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_predict.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_scoreboard.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_servercmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_snapshot.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_view.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/cgame/cg_weapons.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_chat.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_cmd.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_dmnet.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_dmq3.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_team.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/ai_vcmd.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/bg_pmove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/bg_slidemove.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_active.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_arenas.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_bot.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_client.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_cmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_combat.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_items.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_mem.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_missile.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_mover.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_session.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_spawn.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_svcmds.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_target.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_team.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_trigger.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_utils.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/game/g_weapon.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/qcommon/q_math.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/qcommon/q_shared.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/bg_lib.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/bg_misc.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/ui_atoms.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/ui_gameinfo.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/ui_main.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/ui_players.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/missionpack/ui/ui_shared.asm"
+            ex="true"
+            tool="4"
+            flavor="0">
+      </item>
+      <item path="build/release-linux-x86/tools/rcc/dagcheck.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/AL/alext.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/AL/efx-creative.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/AL/efx-presets.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/AL/efx.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_active.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_audio.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_byteorder.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_cdrom.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_amiga.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_dreamcast.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_macos.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_macosx.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_minimal.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_nds.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_os2.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_symbian.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_config_win32.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_copying.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_cpuinfo.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_endian.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_error.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_events.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_getenv.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_joystick.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_keyboard.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_keysym.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_loadso.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_main.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_mouse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_mutex.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_name.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_opengl.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_platform.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_quit.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_rwops.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_stdinc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_syswm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_thread.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_timer.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_types.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_version.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/SDL_video.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/begin_code.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/SDL12/include/close_code.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/asm/ftola.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/asm/matha.s" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/asm/qasm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/asm/snapvector.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/asm/snd_mixa.s" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/asm/vm_x86_64.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/cgame/cg_newdraw.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>MISSIONPACK</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/cgame/cg_syscalls.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/game/ai_chat.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_cmd.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_dmnet.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_dmq3.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_main.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_team.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/ai_vcmd.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/bg_lib.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/bg_lib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/game/bg_misc.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/bg_pmove.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/bg_slidemove.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_active.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_arenas.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_bot.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_client.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_cmds.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_combat.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_items.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_main.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_mem.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_misc.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_missile.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_mover.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_rankings.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/game/g_rankings.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/game/g_session.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_spawn.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_svcmds.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_syscalls.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <item path="code/game/g_syscalls.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_target.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_team.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_trigger.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_utils.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/game/g_weapon.c" ex="false" tool="0" flavor="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>QAGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="code/libcurl/curl/mprintf.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libcurl/curl/stdcheaders.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libcurl/curl/types.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/cb_search_arm4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/cb_search_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/cb_search_sse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/config.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/echo_diagnostic.m" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/filters_arm4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/filters_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/filters_sse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/fixed_arm4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/fixed_arm5e.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/fixed_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/fixed_debug.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/fixed_generic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/lpc_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/lsp_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/ltp_arm4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/ltp_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/ltp_sse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/misc_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/quant_lsp_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/testdenoise.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/testecho.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/testenc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/testenc_uwb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/testenc_wb.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/libspeex/vorbis_psy.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/vq_arm4.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/vq_bfin.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/libspeex/vq_sse.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/null/mac_net.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/null/null_glimp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/null/null_main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/null/null_net.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/celt/fixed_debug.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/celt/fixed_generic.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/celt/opus_custom_demo.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/celt/static_modes_fixed.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/LTP_analysis_filter_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/LTP_scale_ctrl_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/apply_sine_window_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/autocorr_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/burg_modified_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/corrMatrix_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/encode_frame_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/find_LPC_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/find_LTP_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/find_pitch_lags_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/find_pred_coefs_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/k2a_FIX.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/k2a_Q16_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/main_FIX.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/noise_shape_analysis_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/pitch_analysis_core_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/prefilter_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/process_gains_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/regularize_correlations_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/residual_energy16_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/residual_energy_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/schur64_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/schur_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/solve_LS_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/structs_FIX.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/vector_ops_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/opus-1.0.2/silk/fixed/warped_autocorrelation_FIX.c"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_login.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_rankings.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_rankstatus.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_signup.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_specifyleague.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/q3_ui/ui_spreset.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_none.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_powerpc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_powerpc_asm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_powerpc_asm.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_sparc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/qcommon/vm_sparc.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/renderergl2/tr_subs.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/server/sv_rankings.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/sys/con_passive.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/sys/con_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/sys/sys_osx.m" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/sys/sys_win32.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/sys/win_resource.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/asm/cmdlib.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/asm/cmdlib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/asm/mathlib.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/asm/opstrings.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/asm/q3asm.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/cpp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/cpp.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/eval.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/getopt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/hideset.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/include.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/lex.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/macro.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/nlist.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/tokens.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/cpp/unix.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/etc/bytecode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/etc/lcc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/lburg/gram.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/lburg/lburg.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/lburg/lburg.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/alloc.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/bind.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/bytecode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/c.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/config.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/dag.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/decl.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/enode.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/error.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/event.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/expr.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/gen.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/init.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/inits.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/input.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/lex.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/list.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/main.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/null.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/output.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/prof.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/profio.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/simp.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/stmt.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/string.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/sym.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/symbolic.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/token.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/trace.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/tree.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/tools/lcc/src/types.c" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="code/ui/ui_syscalls.asm" ex="true" tool="4" flavor="0">
+      </item>
+      <folder path="ioquaketemp/code/asm">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/botlib">
+        <cTool>
+          <preprocessorList>
+            <Elem>BOTLIB</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/cgame">
+        <cTool>
+          <preprocessorList>
+            <Elem>CGAME</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/client">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/jpeg-8c">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/libogg-1.3.0">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/libspeex">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/null">
+        <cTool>
+          <preprocessorList>
+            <Elem>DEDICATED</Elem>
+            <Elem>USE_VOIP</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/opus-1.0.2">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/opusfile-0.2">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/q3_ui">
+        <cTool>
+          <preprocessorList>
+            <Elem>UI</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/qcommon">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/renderercommon">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/renderergl1">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/renderergl2">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/sdl">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/server">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/sys">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/ui">
+        <cTool>
+          <preprocessorList>
+            <Elem>MISSIONPACK</Elem>
+            <Elem>UI</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="ioquaketemp/code/zlib">
+        <cTool>
+          <incDir>
+            <pElem>code/opus-1.0.2/include</pElem>
+            <pElem>code/opusfile-0.2/include</pElem>
+            <pElem>code/opus-1.0.2/celt</pElem>
+            <pElem>code/opus-1.0.2/silk</pElem>
+            <pElem>/usr/include/SDL</pElem>
+            <pElem>code/libspeex/include</pElem>
+            <pElem>code/opus-1.0.2/silk/float</pElem>
+            <pElem>code/libogg-1.3.0/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FLOATING_POINT</Elem>
+            <Elem>HAVE_LRINTF</Elem>
+            <Elem>OPUS_BUILD</Elem>
+            <Elem>USE_ALLOCA</Elem>
+            <Elem>USE_CODEC_OPUS</Elem>
+            <Elem>USE_CURL</Elem>
+            <Elem>USE_CURL_DLOPEN</Elem>
+            <Elem>USE_MUMBLE</Elem>
+            <Elem>USE_OPENAL</Elem>
+            <Elem>USE_OPENAL_DLOPEN</Elem>
+            <Elem>USE_RENDERER_DLOPEN</Elem>
+            <Elem>USE_VOIP</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_REENTRANT</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="misc/osxfe/ioquake3fe/Controller.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/Controller.m" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/ErrorWindow.h" ex="true" tool="3" flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/ErrorWindow.m" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/ErrorWindowController.h"
+            ex="true"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/ErrorWindowController.m"
+            ex="true"
+            tool="0"
+            flavor="0">
+      </item>
+      <item path="misc/osxfe/ioquake3fe/main.m" ex="true" tool="0" flavor="0">
+      </item>
+      <item path="misc/setup/setup.xml.mod" ex="true" tool="2" flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
